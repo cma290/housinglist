@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.min.js"></script>
+	<link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href= "public/css/app.css" rel="stylesheet"></link>
+	
+	<title>mySolution</title>
+</head>
+
+<body ng-app="myApp">
+	<h1 class="home-header" id="top">Find Your Dream Apartment Here!</h1>
+	
+	<div ng-view></div>
+	
+	<script src= "public/routes/ngRoute.js"></script>
+	<script src= "public/services/dataService.js"></script>
+	<script src= "public/controllers/list.js"></script>
+	<script src= "public/controllers/details.js"></script>
+	<script src= "public/javascripts/dirPagination.js"></script>
+
+</body>
+</html>

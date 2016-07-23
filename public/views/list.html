@@ -1,0 +1,57 @@
+<div class="container-fluid">
+	<div class="row list-header">
+        <div class="col-sm-8">
+            <h4>{{list[0].description}}: <b>{{numOfApts}}</b> Apartments</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8 btn-bar">
+            <button ng-click='updateOrder("popularity")' type="button" class="btn-sort">
+            	Popularity <span class="arrow" style="display:{{popuUp}}">&#9650</span>
+            			   <span class="arrow" style="display:{{popuDown}}">&#9660</span>
+            </button>
+            
+            <button ng-click='updateOrder("price")' type="button" class="btn-sort">
+            	Price <span class="arrow" style="display:{{priUp}}">&#9650</span>
+            	      <span class="arrow" style="display:{{priDown}}">&#9660</span>
+            </button>
+        </div>
+    </div>
+	<div class="row">
+		<div class="col-sm-8">
+        	<div class="pagi-ctrl">
+					<dir-pagination-controls max-size=9></dir-pagination-controls>
+			</div>
+			<article dir-paginate="li in list | orderBy:myOrderBy:reverse | itemsPerPage: 5">
+				<div class="row list-row">
+					<div class="col-sm-5 list-col">
+						<div class="list-img-box-out">
+							<div class="in">
+								<img class="list-img" src="public/images/{{li.image}}" alt="ApartmentImage">
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-7 list-col">
+						<div class="list-info-outer-box">
+							<div class="in list-info">
+								<h3 class="info-title"><a href="#/details/{{li.id}}"><b>{{li.name}}</b></a></h3>
+								<div class="detail">
+									<p>{{li.description}}</p>
+								</div>
+								<a href="#/details/{{li.id}}" class="price-tag">
+									<span class="price-prefix">From</span>
+									<span class="price-value">${{li.price}}</span>
+									<div class="price-unit">/month</div>
+									<!-- <p>{{li.popularity}}</p> -->
+								</a>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</article>
+			<div class="pagi-ctrl">
+				<dir-pagination-controls max-size=9></dir-pagination-controls>
+			</div>
+		</div>
+	</div>
+</div>

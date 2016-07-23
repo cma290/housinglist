@@ -1,0 +1,268 @@
+{
+    "apartments": [
+        {
+			"id":0,
+        	"name": "The Pavilion on Berry",
+        	"image": "image-1.jpg",
+        	"price": 512,
+        	"popularity": 4,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {    
+			"id":1,
+        	"name": "Radius @15th",
+        	"image": "image-3.jpg",
+        	"price": 492,
+        	"popularity": 5,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+			"id":2,
+        	"name": "416 Lofts",
+        	"image": "image-2.jpg",
+        	"price": 460,
+        	"popularity": 3,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+			"id":3,
+        	"name": "Edge on Oak",
+        	"image": "image-4.jpg",
+        	"price": 532,
+        	"popularity": 7,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+			"id":4,
+        	"name": "416 Lofts",
+        	"image": "image-2.jpg",
+        	"price": 480,
+        	"popularity": 3,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+			"id":5,
+        	"name": "Edge on Oak",
+        	"image": "image-4.jpg",
+        	"price": 552,
+        	"popularity": 7,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":6,
+            "name": "The Pavilion on Berry",
+            "image": "image-1.jpg",
+            "price": 522,
+            "popularity": 40,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {    
+            "id":7,
+            "name": "Radius @15th",
+            "image": "image-3.jpg",
+            "price": 490,
+            "popularity": 5,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":8,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 468,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":9,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 541,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":10,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 479,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":11,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 552,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":12,
+            "name": "The Pavilion on Berry",
+            "image": "image-1.jpg",
+            "price": 512,
+            "popularity": 4,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {    
+            "id":13,
+            "name": "Radius @15th",
+            "image": "image-3.jpg",
+            "price": 492,
+            "popularity": 5,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":14,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 460,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":15,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 532,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":16,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 480,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":17,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 552,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {    
+            "id":18,
+            "name": "Radius @15th",
+            "image": "image-3.jpg",
+            "price": 492,
+            "popularity": 5,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":19,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 460,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":20,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 532,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":21,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 480,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":22,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 552,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {    
+            "id":23,
+            "name": "Radius @15th",
+            "image": "image-3.jpg",
+            "price": 492,
+            "popularity": 5,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":24,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 460,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":25,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 532,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":26,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 480,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":27,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 552,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {    
+            "id":28,
+            "name": "Radius @15th",
+            "image": "image-3.jpg",
+            "price": 492,
+            "popularity": 9,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":29,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 460,
+            "popularity": 3,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":30,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 532,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":31,
+            "name": "416 Lofts",
+            "image": "image-2.jpg",
+            "price": 480,
+            "popularity": 8,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":32,
+            "name": "Edge on Oak",
+            "image": "image-4.jpg",
+            "price": 552,
+            "popularity": 7,
+            "description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        }
+    ]
+}
