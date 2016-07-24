@@ -10,13 +10,6 @@ app.controller('listCtrl', function($scope, dataService, $routeParams) {
 	$scope.popuDown = "inline";
 	$scope.priUp = "none";
 	$scope.priDown = "none";
-	
-	// var updateArrow = function(){
-	// 	//if (document.getElementById("popuUp")!== null) document.getElementById("popuUp").style.display = popuUp;
-	// 	if (document.getElementById("popuDown") !== null) document.getElementById("popuDown").style.display = popuDown;
-	// 	if (document.getElementById("priUp")  !== null) document.getElementById("priUp").style.display = priUp;
-	// 	if (document.getElementById("priDown") !== null) document.getElementById("priDown").style.display = priDown;
-	// };
 
 	//sort by popularity/price
 	$scope.updateOrder = function(input){

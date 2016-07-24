@@ -7,13 +7,14 @@
     <div class="row">
         <div class="col-sm-8 btn-bar">
             <button ng-click='updateOrder("popularity")' type="button" class="btn-sort">
-            	Popularity <span class="arrow" style="display:{{popuUp}}">&#9650</span>
-            			   <span class="arrow" style="display:{{popuDown}}">&#9660</span>
+            	Popularity <span class="arrow" ng-style="{'display':popuUp}">&#9650</span>
+            			   <!-- <span class="arrow" style="display:{{popuDown}}">&#9660</span> -->
+            			   <span class="arrow" ng-style="{'display':popuDown}">&#9660</span>
             </button>
             
             <button ng-click='updateOrder("price")' type="button" class="btn-sort">
-            	Price <span class="arrow" style="display:{{priUp}}">&#9650</span>
-            	      <span class="arrow" style="display:{{priDown}}">&#9660</span>
+            	Price <span class="arrow" ng-style="{'display':priUp}">&#9650</span>
+            	      <span class="arrow" ng-style="{'display':priDown}">&#9660</span>
             </button>
         </div>
     </div>
